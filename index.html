@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant Website</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- custom css file link -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/utensils-solid (1).svg">
+    <!-- swiper -->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+<!--lightgallery-js-->
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"/>
+</head>
+<body>
+    <!-- header section start -->
+    <section class="header">
+        <a href="" class="logo"><i class="fas fa-utensils"></i>food.</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#food">food</a>
+            <a href="#gallery">gallery</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
+            <a href="#blogs">blogs</a>    
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- header section end -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <!-- slide 1 -->
+                <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>delicious cooking</h3>
+                        <a href="#food" class="btn">get started</a>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>morning moment</h3>
+                        <a href="#food" class="btn">get started</a>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>authentic food</h3>
+                        <a href="#food" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+            <!-- swiper button -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="images/about-img.png" alt="about image">
+        </div>
+
+        <div class="content">
+            <h3 class="title">welcome to our restaurant</h3>
+                <p>
+                    lorem, ipsum dolor sit amet consectetur adipsing elit. sunt aliqiud iste, suscript
+                   sunt aliqiud iste, suscript,  lorem, ipsum dolor sit amet consectetur adipsing elit
+                   lorem, ipsum dolor sit amet sit amet consectetur adipsing elit sunt aliqiud iste, suscript. 
+                 </p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons-container">
+                    <div class="icons">
+                        <img src="images/about-icon-1.png" alt="about-icon-1">
+                        <h3>quality food</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="images/about-icon-2.png" alt="about-icon-2">
+                        <h3>food & drinks</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="images/about-icon-3.png" alt="about-icon-3">
+                        <h3>expert chefs</h3>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- food section start -->
+    <section class="food" id="food">
+        <div class="heading">
+            <span>popular dishes</span>
+            <h3>our delisious food</h3>
+        </div>
+
+        <div class="swiper food-slider">
+            <div class="swiper-wrapper">
+                <!-- food slider 1 -->
+                <div class="swiper-slide slide" data-name="food-1">
+                    <img src="images/food-img-1.png" alt="food image 1">
+                    <h3>delicious food</h3>
+                    <div class="price">₦3500</div>
+                </div>
+                <!-- food slider 2 -->
+                <div class="swiper-slide slide" data-name="food-2">
+                    <img src="images/food-img-2.png" alt="food image 2">
+                    <h3>delicious food</h3>
+                    <div class="price">₦3500</div>
+                </div>
+                <!-- food slider 3 -->
+                <div class="swiper-slide slide" data-name="food-3">
+                    <img src="images/food-img-3.png" alt="food image 3">
+                    <h3>delicious food</h3>
+                    <div class="price">₦3500</div>
+                </div>
+                <!-- food slide 4 -->
+                <div class="swiper-slide slide" data-name="food-4">
+                    <img src="images/food-img-4.png" alt="food image 4">
+                    <h3>delicious food</h3>
+                    <div class="price">₦3500</div>
+                </div>
+                <!-- food slide 5 -->
+                <div class="swiper-slide slide" data-name="food-5">
+                    <img src="images/food-img-5.png" alt="food image 5">
+                    <h3>delicious food</h3>
+                    <div class="price">₦3500</div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- food section end-->
+
+     <!-- food preview section start-->
+     <section class="food-preview-container">
+        <div id="close-preview" class="fas fa-times"></div>
+            <!--food preview 1-->
+            <!-- <div class="food-preview active" data-target="food-1"> -->
+            <div class="food-preview" data-target="food-1">
+                <img src="images/food-img-1.png" alt="food image 1"/>
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    lorem, ipsum dolor sit amet consectetur adipsing elit. sunt aliqiud iste, suscript
+                </p>
+                <div class="price">₦3500</div>
+                <a href="#order" class="btn">buy now</a>
+            </div>
+             <!--food preview 2-->
+             <div class="food-preview " data-target="food-2">
+                <img src="images/food-img-2.png" alt="food image 2"/>
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    lorem, ipsum dolor sit amet consectetur adipsing elit. sunt aliqiud iste, suscript
+                </p>
+                <div class="price">₦3500</div>
+                <a href="#order" class="btn">buy now</a>
+            </div>
+             <!--food preview 3-->
+             <div class="food-preview" data-target="food-3">
+                <img src="images/food-img-3.png" alt="food image 3"/>
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    lorem, ipsum dolor sit amet consectetur adipsing elit. sunt aliqiud iste, suscript
+                </p>
+                <div class="price">₦3500</div>
+                <a href="#order" class="btn">buy now</a>
+            </div>
+             <!--food preview 4-->
+             <div class="food-preview" data-target="food-4">
+                <img src="images/food-img-4.png" alt="food image 4"/>
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    lorem, ipsum dolor sit amet consectetur adipsing elit. sunt aliqiud iste, suscript
+                </p>
+                <div class="price">₦3500</div>
+                <a href="#order" class="btn">buy now</a>
+            </div>
+             <!--food preview 1-->
+             <div class="food-preview" data-target="food-5">
+                <img src="images/food-img-5.png" alt="food image 5"/>
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    lorem, ipsum dolor sit amet consectetur adipsing elit. sunt aliqiud iste, suscript
+                </p>
+                <div class="price">₦3500</div>
+                <a href="#order" class="btn">buy now</a>
+            </div>
+     </section>
+     <!-- food preview section end-->
+
+     <!--gallery section start-->
+     <section class="gallery" id="gallery">
+        <div class="heading">
+         <span>our gallery</span>
+         <h3>our untold stories</h3>
+        </div>
+
+        <div class="gallery-container">
+            <a href="images/food-galler-img-1.jpg" class="box">
+                <img src="images/food-galler-img-1.jpg" alt="food-galler-img-1">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-2.jpg" class="box">
+                <img src="images/food-galler-img-2.jpg" alt="food-galler-img-2">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-3.jpg" class="box">
+                <img src="images/food-galler-img-3.jpg" alt="food-galler-img-3">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-4.jpg" class="box">
+                <img src="images/food-galler-img-4.jpg" alt="food-galler-img-4">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-5.jpg" class="box">
+                <img src="images/food-galler-img-5.jpg" alt="food-galler-img-5">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+
+            <a href="images/food-galler-img-6.jpg" class="box">
+                <img src="images/food-galler-img-6.jpg" alt="food-galler-img-6">
+                <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+     </section>
+     <!--gallery section end-->
+
+     <!--menu section start-->
+     <section class="menu" id="menu">
+        <div class="heading">
+            <span>our menu</span>
+            <h3>our popular dishes</h3>
+        </div>
+
+        <div class="swiper menu-slider">
+            <div class="swiper-wrapper">
+                <!--slide 1-->
+                <div class="swiper-slide slide">
+                    <h3 class="title">breakfast</h3>
+                    <div class="box-container">
+                        <div class="box">
+                         <div class="info">
+                            <h3>morning breakfast</h3>
+                            <p>
+                                lorem ipsum dolor sit met consectur adispicng elit.
+                                obacenti, itaque?
+                            </p>
+                         </div>
+                         <div class="price">₦499.99</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="info">
+                               <h3>morning breakfast</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>morning breakfast</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>morning breakfast</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>morning breakfast</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>morning breakfast</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+                    </div>
+                </div>
+
+                     <!--slide 2-->
+                     <div class="swiper-slide slide">
+                        <h3 class="title">lunch</h3>
+                        <div class="box-container">
+                            <div class="box">
+                             <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>
+                                    lorem ipsum dolor sit met consectur adispicng elit.
+                                    obacenti, itaque?
+                                </p>
+                             </div>
+                             <div class="price">₦499.99</div>
+                            </div>
+    
+                            <div class="box">
+                                <div class="info">
+                                   <h3>delicious lunch</h3>
+                                   <p>
+                                       lorem ipsum dolor sit met consectur adispicng elit.
+                                       obacenti, itaque?
+                                   </p>
+                                </div>
+                                <div class="price">₦499.99</div>
+                               </div>
+    
+                               <div class="box">
+                                <div class="info">
+                                   <h3>delicious lunch</h3>
+                                   <p>
+                                       lorem ipsum dolor sit met consectur adispicng elit.
+                                       obacenti, itaque?
+                                   </p>
+                                </div>
+                                <div class="price">₦499.99</div>
+                               </div>
+    
+                               <div class="box">
+                                <div class="info">
+                                   <h3>delicious lunch</h3>
+                                   <p>
+                                       lorem ipsum dolor sit met consectur adispicng elit.
+                                       obacenti, itaque?
+                                   </p>
+                                </div>
+                                <div class="price">₦499.99</div>
+                               </div>
+                        </div>
+                    </div>
+
+                       <!--slide 3-->
+                <div class="swiper-slide slide">
+                    <h3 class="title">dinner</h3>
+                    <div class="box-container">
+                        <div class="box">
+                         <div class="info">
+                            <h3>delicious dinner</h3>
+                            <p>
+                                lorem ipsum dolor sit met consectur adispicng elit.
+                                obacenti, itaque?
+                            </p>
+                         </div>
+                         <div class="price">₦499.99</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="info">
+                               <h3>delicious dinner</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>delicious dinner</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>delicious dinner</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>delicious dinner</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+                   </div>
+              </div>
+
+                 <!--slide 4-->
+                 <div class="swiper-slide slide">
+                    <h3 class="title">drinks</h3>
+                    <div class="box-container">
+                        <div class="box">
+                         <div class="info">
+                            <h3>cold drinks</h3>
+                            <p>
+                                lorem ipsum dolor sit met consectur adispicng elit.
+                                obacenti, itaque?
+                            </p>
+                         </div>
+                         <div class="price">₦499.99</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="info">
+                               <h3>cool drinks</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>cool drinks</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>cool drinks</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>cool drinks</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>cool drinks</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+                    </div>
+                </div>
+                   <!--slide 5-->
+                   <div class="swiper-slide slide">
+                    <h3 class="title">desserts</h3>
+                    <div class="box-container">
+                        <div class="box">
+                         <div class="info">
+                            <h3>sweet desserts</h3>
+                            <p>
+                                lorem ipsum dolor sit met consectur adispicng elit.
+                                obacenti, itaque?
+                            </p>
+                         </div>
+                         <div class="price">₦499.99</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="info">
+                               <h3>sweet desserts</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>sweet desserts</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>sweet desserts</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>sweet desserts</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>sweet desserts</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+
+                           <div class="box">
+                            <div class="info">
+                               <h3>sweet desserts</h3>
+                               <p>
+                                   lorem ipsum dolor sit met consectur adispicng elit.
+                                   obacenti, itaque?
+                               </p>
+                            </div>
+                            <div class="price">₦499.99</div>
+                           </div>
+                    </div>
+                </div>
+         </div>
+
+         <div class="swiper-pagination"></div>
+        </div>
+     </section>
+      <!--menu section end-->
+
+     <!--order section start-->
+     <section class="order" id="order">
+        <div class="heading">
+            <span>order now</span>
+            <h3>fast home delivery</h3>
+        </div>
+
+        <script type="text/javascript">
+            var submitted = false;
+         </script>
+         <iframe name="hidden_iframe" 
+         id="hidden_iframe"
+         style="display: none"
+         onload="if(submitted){window.location='#'}"></iframe>
+           <!--redirect user to your website after submitting to google sheets end-->
+
+        <form 
+        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfyDJUq2KqP7XPalO5ylyk59f-B4m2T1_DsSjhRD89kPfEW5Q/formResponse"
+        method="POST"
+        target="hidden_iframe"
+        onsubmit="submitted=true">
+            <div class="box-container">
+                <div class="box">
+                    <div class="inputBox">
+                        <span>full name</span>
+                        <input type="text" placeholder="enter your name"   name="entry.1801631161" />
+                    </div>
+                    <div class="inputBox">
+                        <span>food name</span>
+                        <input type="text" placeholder="enter food name" name="entry.557080980"/>
+                    </div>
+                    <div class="inputBox">
+                        <span>order details</span>
+                        <input type="text" placeholder="enter food details" name="entry.314451296"/>
+                    </div>
+                    <div class="inputBox">
+                        <span>your address</span>
+                        <textarea id="" cols="30" rows="6" class="clientAddress" name="entry.1074921355"></textarea>
+                    </div>
+                    <div class="inputBox">
+                        <span>email</span>
+                        <input type="email" placeholder="enter your email" name="entry.1458073790"/>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="inputBox">
+                        <span>number</span>
+                        <input type="number" placeholder="enter your phone number" name="entry.1558854097"/>
+                    </div>
+                    <div class="inputBox">
+                        <span>quantity</span>
+                        <input type="number" placeholder="enter your quantity" name="entry.491401321"/>
+                    </div>
+                    <div class="inputBox">
+                        <span>when you want</span>
+                        <input type="datetime-local" name="entry.1748572970"/>
+                    </div>
+                    <div class="inputBox">
+                        <span>our address</span>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2473239626624!2d3.3259804174438368!3d6.490335100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8eb0320e7d65%3A0x9586e6fd44337da8!2s37%20Duro%20Oyedoyin%20St%2C%20Ijesha%20Tedo%20101241%2C%20Lagos!5e0!3m2!1sen!2sng!4v1656413815031!5m2!1sen!2sng"
+                        class="map" style="border:0;" allowfullscreen="" 
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn" value="order now">submit</button>
+        </form>
+     </section>
+     <!--order section end--> 
+     <!--blogs section start--> 
+     <section class="blogs" id="blogs">
+        <div class="heading">
+            <span>our blogs</span>
+            <h3>our latest posts</h3>
+        </div>
+
+        <div class="swiper blogs-slider">
+            <div class="swiper-wrapper">
+                <!--slide 1-->
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-1.jpg" alt="blog-img-1">
+                        <span>burger</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>21st may, 2022</a>
+                            <a href="#"><i class="fas fa-user"></i>by admin</a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>
+                            lorem ipsum dolor sit met consectur adispicng elit.obacenti, 
+                            itaque?
+                        </p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                
+                    <!--slide 2-->
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="images/blog-img-2.jpg" alt="blog-img-2">
+                            <span>sandwich</span>
+                        </div>
+                        <div class="content">
+                            <div class="icon">
+                                <a href="#"><i class="fas fa-calendar"></i>21st may, 2022</a>
+                                <a href="#"><i class="fas fa-user"></i>by admin</a>
+                            </div>
+                            <a href="#" class="title">blog title goes here</a>
+                            <p>
+                                lorem ipsum dolor sit met consectur adispicng elit.obacenti, 
+                                itaque?
+                            </p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+
+                        <!--slide 3-->
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-3.jpg" alt="blog-img-3">
+                        <span>chicken</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>21st may, 2022</a>
+                            <a href="#"><i class="fas fa-user"></i>by admin</a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>
+                            lorem ipsum dolor sit met consectur adispicng elit.obacenti, 
+                            itaque?
+                        </p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                    <!--slide 4-->
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="images/blog-img-4.jpg" alt="blog-img-4">
+                            <span>ice cream</span>
+                        </div>
+                        <div class="content">
+                            <div class="icon">
+                                <a href="#"><i class="fas fa-calendar"></i>21st may, 2022</a>
+                                <a href="#"><i class="fas fa-user"></i>by admin</a>
+                            </div>
+                            <a href="#" class="title">blog title goes here</a>
+                            <p>
+                                lorem ipsum dolor sit met consectur adispicng elit.obacenti, 
+                                itaque?
+                            </p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+
+                        <!--slide 5-->
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-5.jpg" alt="blog-img-5">
+                        <span>pizza</span>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-calendar"></i>21st may, 2022</a>
+                            <a href="#"><i class="fas fa-user"></i>by admin</a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>
+                            lorem ipsum dolor sit met consectur adispicng elit.obacenti, 
+                            itaque?
+                        </p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                    <!--slide 6 -->
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="images/blog-img-6.jpg" alt="blog-img-6">
+                            <span>coffee</span>
+                        </div>
+                        <div class="content">
+                            <div class="icon">
+                                <a href="#"><i class="fas fa-calendar"></i>21st may, 2022</a>
+                                <a href="#"><i class="fas fa-user"></i>by admin</a>
+                            </div>
+                            <a href="#" class="title">blog title goes here</a>
+                            <p>
+                                lorem ipsum dolor sit met consectur adispicng elit.obacenti, 
+                                itaque?
+                            </p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+        </div>
+     </section>
+       <!--blogs section end--> 
+
+       <!--footer section start-->
+       <section class="footer">
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>07:00am to 10:00</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>+234-816-741-31</p>
+                <p>+234-816-741-31</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>greaterfood@gmail.com</p>
+                <p>greaterfood@yahoo.com</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3>address</h3>
+                <p>19,simpson steet,oyingbo</p>
+                <p>salaudeenabdulagniyy@gmail.com</p>
+            </div>
+            </div>
+            <div class="share">
+             <a href="https://web.facebook.com/salaudeen.abdulganiyy" class="fab fa-facebook-f"></a>
+             <a href="https://twitter.com/home?lang=en" class="fab fa-twitter"></a>
+             <a href="https://web.whatsapp.com/" class="fab fa-whatsapp"></a>
+             <a href="#" class="fab fa-linkedin"></a>
+            </div>
+
+            <div class="credit">
+                created  by <span>standard innovatives</span> | all rights reserved.
+            </div>
+        
+       </section>
+       <!--footer section end-->
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--lightgallery-js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'))
+    </script>
+</body>
+</html>
+<!-- 
+    -google search cdnjs.com
+    click on cdnjs- the #1 free and open source cdn built to make life...
+    search for font-awesome@6.1.1., click on copy url icon
+    paste it right after title tags in the head tag like this
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+     add custome css on the head tag like this
+     <link href="css/style.css" rel="stylesheet">
+     add icon right after custom tag like this
+     <link rel="icon" href="images/utensils-solid (1).svg">
+     click on https://fontawesome.com
+     download utensile-solid.svg for the icon logo
+     add custom js onto the body right brfore the closing body tags like this
+     <script src="script.js"></script>
+     google search fonts.google.com, search for dosis
+     slect 200 300  400 500 600 then select @import and copy the content of the style tags
+     paste it at the top of the style.css file 
+        swiper
+     google search swiper.js.com, click on get started, scroll down to user swipper from cdn
+     copy the link tags and right after icon link tag
+     copy the script tag and paste it right after js/script.js scripts tag
+
+      FOOD SECTION
+      let add slider onto food section
+      back to swiper.com click on get started click on demos
+      scroll the slide bardown to select responsive breakpoints
+      click on core
+      scroll down to index.html file to copy the pagination:{}, breakpoint:{},
+      paste the pagitation brakpoint objects in script.js file to replace navigation object 
+      copy this <div class="swiper-pagitaion"><div> and it right after the <div> that hold all the food slider
+    change the breakpoints
+
+    gallery
+    -back to cdnjs. com to dearch for lightgallery-js
+    -click on lightgallery-js
+    copy https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css
+    -paste it inside the head tags right after swiper 
+     -also copy https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js
+     -paste it inside the body tags right after swiper script tags 
+     -addd the below code right before the close body tags
+       <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'))
+    </script>
+
+    order
+    google search google maps, click on https://maps.google.com
+    enter your location on the search firld on the gooogle search like
+    simpson,ebutemetta
+    click on share  click on embed a map
+    click on copy html
+    paste it right after <span>our address</sapn>
+
+    
+ -->
