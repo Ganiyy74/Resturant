@@ -626,6 +626,39 @@ margin-top: 0.5rem;
         font-size: 15vw;
     }
 }
+@media(max-width: 884px){
+    .footer .icons-container{
+        display: grid;
+       justify-content: center;
+        align-items: center;  
+   
+   }
+   .footer .icons-container .icons{
+       text-align: center;
+       padding: 2rem 1rem;
+       margin-right: 2.5rem;
+   }
+   .footer .icons-container .icons i{
+       height: 3rem;
+       width: 3rem;
+       border-radius: 50%;
+       background: var(--peru);
+       color: var(--white);
+       line-height: 2.7rem;
+       font-size: 1rem;
+   }
+   .footer .icons-container .icons h3{
+       font-size: 1rem;
+       color: var(--black);
+       padding: 1rem 0;
+   }
+   .footer .icons-container .icons p{
+       line-height: 1.5;
+       font-size: 1.7rem;
+       color: var(--light-black);
+       text-transform: none;
+   }
+}
 @media(max-width: 768px) {
     .header .navbar {
         position: absolute;
